@@ -2,12 +2,12 @@
 Flipkart Sales Analysis Using SQL(Postresql)
 
 🗂️ 1. Data Understanding & Setup 
-• I began by creating a PostgreSQL database called Flipkart.
-• I created a table flipkart_mobile with 16 relevant fields such as:
-	○ brand, model, processor, screen_size
-	○ ROM, RAM, battery_capacity, ratings, sales_price, discount_percent, and sales
-“These fields were sufficient to perform both product-based and performance-based analysis.”
-• I imported the dataset using the COPY command from a CSV file.
+	• I began by creating a PostgreSQL database called Flipkart.
+	• I created a table flipkart_mobile with 16 relevant fields such as:
+		○ brand, model, processor, screen_size
+		○ ROM, RAM, battery_capacity, ratings, sales_price, discount_percent, and sales
+	“These fields were sufficient to perform both product-based and performance-based analysis.”
+	• I imported the dataset using the COPY command from a CSV file.
 
 🔍 2. Product Performance Analysis 
 	In the first section, I focused on how each brand and model performed in terms of listings, uniqueness, customer ratings, and popularity.
